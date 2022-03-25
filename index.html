@@ -16,9 +16,12 @@ body{
     text-align:center;
 }
     
-    nav{
-        float:left;
-    }
+  .lbar{
+      display:flex;
+      flex-direction:column;
+justify-content:flex-start;
+
+  }
     
     .opimage{
         height:100px;
@@ -31,14 +34,14 @@ body{
 </head>
 <header>
     <div>
-        <a href="/" class="opimage" src="/oats.png" alt="website banner"></a>
+        <a href="/" class="opimage" src="website_images/randomimage.png" alt="website banner"></a>
     </div>
 
 
-<nav>
+<nav class="lbar">
     <ul>
-        <li>Quick Links</li>
-        <li><a href="#">This thing.</a></li>
+        <p><b>Quick Links</b></p>
+        <li><a href="music.html">Music</a></li>
             <li><a href="#">That thing.</a></li>
                 <li><a href="#">There thing.</a></li>
 </ul>
